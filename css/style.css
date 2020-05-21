@@ -2,6 +2,15 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
+.container-wrapper {
+}
+
+.container-wrapper--red {
+     background-color: #ff4100;
+
+     color: whitesmoke
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;  
@@ -58,9 +67,6 @@ body {
 }
 
 
-    
-
-
 /*Blockdividers*/
 
 .block-divider {
@@ -74,8 +80,19 @@ body {
     background-color: #dcbb58e6;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 block-divder--short {
     width: 35px;
+}
+
+/* Content Containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
@@ -154,3 +171,31 @@ block-divder--short {
     border-color: #d63a04;
 }
 
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.badge-success {
+    margin-left: 10px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff4100;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px; 
+}
