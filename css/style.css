@@ -2,7 +2,19 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;  
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #e0a40b;
+    border-color: #e0a40b;
+
+}
 
 .callout-container {
     height: 100vh;
@@ -33,12 +45,29 @@ body {
 
 .features-container {}
 
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+    
+
+
 /*Blockdividers*/
 
 .block-divider {
     width: 75px;
     height: 5px;
-    border: 0;    
+    border: 0;  
+    background-color: #444  
 }
 
 .block-divider--orange {
@@ -55,6 +84,7 @@ block-divder--short {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     padding-left: 0;
     padding-right: 0;
 }
@@ -63,7 +93,19 @@ block-divder--short {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: blue;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
 
 /*Jumbotron*/
@@ -107,6 +149,7 @@ block-divder--short {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
+    color: white;
     background-color: #d63a04;
     border-color: #d63a04;
 }
