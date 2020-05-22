@@ -11,6 +11,14 @@ body {
      color: whitesmoke
 }
 
+.container-wrapper--table {
+    background: url("../images/whisky-cask.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;  
@@ -199,3 +207,18 @@ block-divder--short {
 .quotes .page-header {
     margin-bottom: 25px; 
 }
+
+.monthly-favourites .page-header {
+    margin-bottom: 25px;
+    color: whitesmoke;
+    
+}
+
+.table {
+    width: 40%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
